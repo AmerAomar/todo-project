@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
     <title>ToDo</title>
    
 
@@ -13,41 +16,42 @@
     <body>
 
         <header>
-            
-            <section >
-                 <img src="logo.png" alt="logo">
-                 <h1>ToDo</h1>
-            </section>
-           
+            <div>
+                <img src="logo.png" alt="logo">
+            </div>
             <nav>
-                <ul>
-                    <li> <a href="index.html"> Home </a></li>
-                    <li> <a href="About.html">About us</a></li>
+                <ul> 
+
+                <li><h2> ToDo</h2></li>
+    
+                    <li class="home"><a href="index.html">Home</li>
+                    <li class="about"><a href="About.html">About us</a></li>
                     
+    
                 </ul>
             </nav>
         </header>
     
     <main>
         <section>
-            <h3>list of tasks:</h3>
+            <h1>ToDo List</h1>
         </section>
-        <table border="1">
+        <table>
             <tr>
                 <th>Task</th>
                 <th>Status</th>
             </tr>
             <tr>
-                <td>go to work</td>
-                <td>Done</td>
+                <td>go to work  </td>
+                <td>Done <span class="span-color1">&#9745;</span></td>
             </tr>
             <tr>
                 <td>go to gym</td>
-                <td>Not Done</td>
+                <td>Not Done <span class="span-color2">&#9746;</span></td>
             </tr>
             <tr>
-                <td>Pray</td>
-                <td>Done</td>
+                <td>Pray </td>
+                <td>Done <span class="span-color1">&#9745;</span></td>
             </tr>
         </table>
     
@@ -56,10 +60,10 @@
     
     <footer>
         <section>
-            <p style="margin:0;display:inline;float:left">&copy; copy rights reserved</p>
+            <p class="float-left" >&copy; copy rights reserved</p>
         
         
-            <p style="margin-left: 200px;">Email: ToDo@gmail.com</p>
+            <p  class="float-right">Email: ToDo@gmail.com</p>
         </section>
     
     </footer>

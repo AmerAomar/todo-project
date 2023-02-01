@@ -1,0 +1,127 @@
+* 
+{
+    font-family: 'Righteous', cursive;
+}
+
+body
+{
+    background-color: honeydew;
+    
+}
+
+header
+ {
+    background-color: rgba(189, 192, 195, 0.701);
+    position: fixed;
+    width: 100%;
+    
+    position: absolute;
+    top: 0;
+}
+
+img
+{
+    width: 100px;
+    height: 50px;
+    margin: 10px 0 5px 5px;
+    float: left;
+}
+
+.navigation
+ {
+    float: right;
+}
+
+nav ul li 
+{
+    display: inline-block;
+    padding: 20px 10px;
+    font-family: 'Righteous', cursive;
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+h2
+{
+    margin-left: 12px;
+    margin-top: 3px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+a
+{
+    text-decoration: none;
+    color: darkolivegreen;
+
+}
+.home
+{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+h1
+{
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 200;
+    color: midnightblue;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+td, th {
+    border: 1px solid black;
+    
+}
+
+th {
+    padding: 8px 20px;
+}
+
+td {
+    padding: 15px;
+}
+.span-color1
+{
+color: green;
+font-size: 30px;
+
+}
+.span-color2
+{
+color:red;
+font-size: 30px;
+
+}
+
+footer {
+   
+    background-color: rgba(189, 192, 195, 0.701);
+    font-family: 'Righteous', cursive;
+    padding: 10px;
+    position: relative;
+    top: 270px;
+    height: 42px;
+
+
+
+}
+.float-left
+{
+float: left;
+margin-left: 70px;
+padding-top: 7px;
+}
+.float-right
+{
+    margin-left: 400px;
+    padding-top: 7px;
+}
+

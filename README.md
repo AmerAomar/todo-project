@@ -1,3 +1,3 @@
 # todo-project
-![home page](Home-page.png)
-![about page](About-page.png)
+![homepage-css](homepage-css.png)
+![aboutpage-css](aboutpage-css.png)
