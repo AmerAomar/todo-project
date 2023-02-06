@@ -47,11 +47,14 @@ h2
     margin-top: 3px;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 a
 {
     text-decoration: none;
-    color: darkolivegreen;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 
 }
 .home
@@ -67,12 +70,14 @@ h1
     font-size: 30px;
     font-weight: 200;
     color: midnightblue;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
 table {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     margin-top: 10px;
+    background-color:lemonchiffon;
 
 }
 
@@ -83,6 +88,8 @@ td, th {
 
 th {
     padding: 8px 20px;
+    color: coral;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 td {
@@ -122,6 +129,43 @@ padding-top: 7px;
 .float-right
 {
     margin-left: 400px;
-    padding-top: 7px;
+    padding-top: 9px;
 }
-
+/* new add */
+.animated-text{
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background:midnightblue;
+    padding: 0 40px;
+    height: 60px;
+    overflow: hidden;
+  }
+  
+  .line{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    line-height: 60px;
+  }
+  
+  .line:first-child{
+    animation: anim 3s infinite;
+  }
+  
+  @keyframes anim {
+    0%{
+      margin-top: 0;
+    }
+    50%{
+      margin-top: -110px;;
+    }
+   
+    100%{
+      margin-top: 0px;
+    }
+    
+  }
+  
